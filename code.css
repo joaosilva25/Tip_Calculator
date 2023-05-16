@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    height: 400px;
+    background-color: #d3d1ff;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    position:relative;bottom:20px;
+}
+
+fieldset {
+    width:330px;
+    height: 470px;
+    background: linear-gradient(to left, #a1a4e6f3,#c98fffa8);
+    border: none;
+    border-radius:10px;
+    position:relative;bottom:70px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.164);
+}
+
+input {
+    position:relative;top:10px;
+    font-size: 18px;
+    border:none;
+    border-radius:15px;
+    background-color:transparent;
+    margin-top: 15px;
+    margin-right:30px;
+    margin-left:30px;
+    padding: 10px;
+    color: #6d76f5;
+    font-weight: bold;
+}
+
+input:focus {
+    border:transparent;
+}
+
+input::placeholder {
+    color:#80808094 ;
+}
+
+.box {
+    align-items: center;
+    margin-top: 150px;
+}
+
+h3,h4 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-right: 30px;
+    margin-left:30px;
+    color: #80808094;
+}
+
+.result_tip {
+    position: relative;bottom:30px;
+}
+
+.result_total {
+    position: relative;top:10px;
+}
+
+.painel_text {
+    margin-top: 50px;
+}
+
+button {
+    border:none;
+    background-color: #999de7;
+    color:white;
+    width:100px;
+    padding:10px;
+    border-radius:15px;
+    position: relative;top:42px;
+    box-shadow:2px 2px 8px white;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #999de7;
+}
+.painel{
+    height: 140px;
+    width:280px;
+    background-color:white;
+    border-radius:20px;
+    margin-right:40px;
+    margin-left:40px;
+    margin-bottom: 60px;;
+}
+
+.painel2{
+    height: 170px;
+    width:280px;
+    background-color:white;
+    border-radius:10px;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+.bar{
+    width:280px;
+    background-color: rgba(185, 185, 185, 0.267);
+}
+
+.bar2 {
+    height: 2px;
+    width:280px;
+    background-color: rgba(185, 185, 185, 0.267);
+}
+
+p {
+    color:#80808094 ;
+    margin-right: 30px;
+    margin-left:30px;
+    font-size: 20px;
+
+}
+
+.rodape {
+    text-align: center;
+    color:white;
+    font-size:18px;
+    font-weight: lighter;
+    position:relative;bottom:20px;
+
+}
